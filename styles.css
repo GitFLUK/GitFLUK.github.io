@@ -1,15 +1,59 @@
-.kuys {
-    color: red ;
-}
-#kuy {
- color: rgb(106, 106, 182);
-}
-
-p {
-    color: green;
-    font-size: 20px;
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
-h1{
-    font-size: 100px;
+.profile-card {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #e0e0e0;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.id-tag {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+#id-number {
+    font-weight: bold;
+    color: #007bff;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
